@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Mini Project Revou - CODE </title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- awal navbar -->	
+  <header>
+    <nav>
+      <div class="nav-left"> <!-- navbar sebelah kiri -->
+        <img src="img/laptop.png" alt="Icon" class="nav-icon">
+        <h1>.CODE.</h1>
+      </div>
+
+      <ul class="nav-right"> <!-- navbar sebelah kanan -->
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+ <!-- akhir navbar -->
+
+
+<!-- awal section home -->
+<section id="home">
+	<div class="container">
+		<div class="content-slide">
+			<div class="imgslide fade">
+				<div class="numberslide"></div>
+				<img src="img/keyboard1.jpg" alt="">
+				<div class="text">HELLO, WELCOME TO CODE <p> Let's Study About Software Engineering </p> </div>
+
+			</div>
+			<div class="imgslide fade">
+				<div class="numberslide"></div>
+				<img src="img/keyboard2.jpg" alt="">
+				<div class="text">HELLO, WELCOME TO CODE <p> Let's Practice Coding </p> </div>
+			</div>
+			<div class="imgslide fade">
+				<div class="numberslide"></div>
+				<img src="img/keyboard3.jpg" alt="">
+				<div class="text">HELLO, WELCOME TO CODE <p> Learning By Doing </p> </div>
+			</div>
+		</div>
+
+		<div class="dot-container">
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+		</div>
+</section>
+<!-- akhir section home -->
+
+
+<!-- awal section about -->
+<section id="about">
+	<div class="container-about">
+		<h1> ABOUT CODE </h1>
+		<h2> Let's CODE BEGIN - Study WITH FRONT END TECH </h2>
+		<div class="card-html">
+			<img src="img/html.png" alt="">
+			<p> Hypertext Markup Language | HTML </p>
+			<p> Belajar HTML sebagai struktur website </p>
+		</div>
+		<div class="card-css">
+			<img src="img/css.png" alt="">
+			<p> Cascading Style Sheet | CSS </p>
+			<p> Belajar Styling website lebih menarik </p>
+		</div>
+		<div class="card-js">
+			<img src="img/js.png" alt="">
+			<p> Javascript | JS </p>
+			<p> Belajar website lebih interaktif dan dinamis </p>
+		</div>
+	</div>
+</section>
+<!-- akhir section about -->
+
+
+<!-- awal section contact us -->
+<section id="contact-us">
+	<h1> CONTACT US </h1>
+	<div class="container-form">
+		<form action="" method="post">
+			<div class="form-group">
+				<label for="name">Nama : </label>
+				<input type="text" id="name" name="name">
+			</div>
+			<div class="form-group">
+				<label for="date">Tanggal Lahir:</label>
+				<input type="date" id="date" name="date" required>
+			</div>
+			<div class="form-group">
+				<label>Jenis Kelamin:</label>
+				<div class="laki-laki">
+					<input type="radio" id="male" name="gender" value="male" required>
+					<label for="male">Laki-laki</label>
+				</div>
+				<div class="perempuan">
+					<input type="radio" id="female" name="gender" value="female" required>
+					<label for="female">Perempuan</label>
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="message">Pesan:</label>
+				<textarea id="message" name="message" rows="5" required></textarea>
+			</div>
+			<button type="submit">Submit</button>
+		</form>
+	</div>
+
+	<div class="box-form">
+		<ul>
+			<h3> Halo, tinggalkan pesan Anda... </h3>
+			<li><p id="output-name"> Nama : </p></li>
+			<li><p id="output-date"> Tanggal Lahir : </p></li>
+			<li><p id="output-gender"> Jenis Kelamin : </p></li>
+			<li><p id="output-message"> Pesan : </p></li>
+		</ul>
+		
+	</div>
+</section>
+<!-- akhir section contact us -->
+
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
